@@ -50,4 +50,4 @@ func my_custom_method(time_1):
 
 **License**
 
-> MIT (see LICENSE.md)
+> MIT (see LICENSE file)
