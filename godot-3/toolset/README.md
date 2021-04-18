@@ -2,7 +2,7 @@
 
 **Use in Autoload** `Project > Project Settings > AutoLoad`
 
-**Functions**
+### Function
 
 ___
 
