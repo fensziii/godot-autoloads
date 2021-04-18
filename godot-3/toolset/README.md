@@ -4,7 +4,7 @@
 **Functions**
 
 
-## **Toolset._ms2Time(_`milliseconds`_)_**
+### **Toolset._ms2Time(_`milliseconds`_)_**
 
 + **milliseconds** = milliseconds ( `OS.get_system_time_msecs()` )
 
@@ -13,7 +13,7 @@
 + **string**
 > Return: 62.14 MB
 
-## **Toolset._formatBytes(_`bytes`_)_**
+### **Toolset._formatBytes(_`bytes`_)_**
 
 + **bytes** = bytes as `int`
 
