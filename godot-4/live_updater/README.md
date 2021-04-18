@@ -3,8 +3,9 @@
 
 **Function**
 
+___
 
-**Die Funktion**
+<br />
 
 **LiveUpdater._run(_** **`node_name`**, **`node_variant`**, **`inspect_var`**, **`run_event`**, **`clear_event`** **_)_**
 
@@ -14,6 +15,11 @@
 + **run_event**     = method to execute on `true`
 + **clear_event**   = method to execute on `false`
 
+<br />
+
+___
+
+<br />
 
 **Example**
 
@@ -34,6 +40,11 @@ func _process(delta):
 
 ```
 
+<br />
+
+___
+
+<br />
 
 **License**
 
