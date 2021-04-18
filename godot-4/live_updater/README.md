@@ -6,12 +6,12 @@
 
 **Die Funktion**
 
-**LiveUpdater.run(**`node_name : 1`**, **`node_variant : 2`**, **`inspect_var : 3`**, **`run_event : 4`**, **`clear_event : 5`**)**
-+ 1. unique name
-+ 2. set a node
-+ 3. your export var
-+ 4. method to execute on `true`
-+ 5. method to execute on `false`
+**LiveUpdater.run(**`node_name`**, **`node_variant`**, **`inspect_var`**, **`run_event`**, **`clear_event`**)**
++ **node_name** unique name
++ **node_variant** set a node
++ **inspect_var** your export var
++ **run_event** method to execute on `true`
++ **clear_event** method to execute on `false`
 
 
 **Example**
