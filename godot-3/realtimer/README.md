@@ -37,13 +37,17 @@ func my_custom_method(time_1):
 
 ```
 
-> Starte das Spiel und klicke die Taste **L** 3x
+> Run the Game and click the key **L**
 
-**Beispiel Output**
+**Output**
 
 ```
 00:00:00.998
+```
+```
 00:00:01.000
+```
+```
 00:00:01.001
 ```
 
