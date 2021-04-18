@@ -6,10 +6,10 @@
 
 **Realtimer._set_timer(_`node`, `method`, `arg`, `time`_)_**
 
-> **node** = Set a Node
-> **method** = method of Node
-> **arg** = Set a Argument for the method
-> **time** = Set time in Seconds
++ **node** = Set a Node
++ **method** = method of Node
++ **arg** = Set a Argument for the method
++ **time** = Set time in Seconds
 
 **Example**
 
