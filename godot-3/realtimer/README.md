@@ -46,3 +46,8 @@ func my_custom_method(time_1):
 00:00:01.000
 00:00:01.001
 ```
+
+
+**License**
+
+> MIT (see LICENSE.md)
