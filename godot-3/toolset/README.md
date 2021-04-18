@@ -3,6 +3,7 @@
 
 **Functions**
 
+___
 
 ### **Toolset._ms2Time(_`milliseconds`_)_**
 
@@ -20,7 +21,7 @@
 **return `string`**
 > Example return: 62.14 MB
 
-
+<br />
 ___
 
 
