@@ -21,10 +21,9 @@ ___
 **return `string`**
 > Example return: 62.14 MB
 
-<br />
-
 ___
 
+<br />
 
 **License**
 
