@@ -1,5 +1,6 @@
 # Toolset for Godot 3
 
+**Use in Autoload** `Project > Project Settings > AutoLoad`
 
 **Functions**
 

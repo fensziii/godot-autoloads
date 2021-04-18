@@ -1,5 +1,6 @@
 # setget Workaround for Godot 4
 
+**Use in Autoload** `Project > Project Settings > AutoLoad`
 
 **Function**
 

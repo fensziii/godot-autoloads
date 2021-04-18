@@ -1,6 +1,6 @@
 # Tools for Godot 3 and Godot 4
 
-> Use in Autoload
+**Use in Autoload** `Project > Project Settings > AutoLoad`
 
 <br />
 
