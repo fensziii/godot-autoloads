@@ -23,7 +23,7 @@ ___
 
 **Example**
 
-```
+```gd
 @tool
 extends MeshInstance3D
 

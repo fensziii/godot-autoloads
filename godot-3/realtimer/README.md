@@ -22,7 +22,7 @@ ___
 
 **Example**
 
-```
+```gd
 extends Node
 
 func ms2Time(s):
