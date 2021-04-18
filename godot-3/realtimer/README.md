@@ -41,12 +41,17 @@ func my_custom_method(time_1):
 
 **Output**
 
+> click 1
 ```
 00:00:00.998
 ```
+
+> click 2
 ```
 00:00:01.000
 ```
+
+> click 3
 ```
 00:00:01.001
 ```
