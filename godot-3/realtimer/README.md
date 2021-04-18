@@ -1,8 +1,11 @@
 # Code Based Timer for Godot 3
 
 
-**Funktion**
+**Function**
 
+___
+
+<br />
 
 **Realtimer._set_timer(_`node`, `method`, `arg`, `time`_)_**
 
@@ -11,9 +14,15 @@
 + **arg** = Set a Argument for the method
 + **time** = Set time in Seconds
 
+<br />
+
+___
+
+<br />
+
 **Example**
 
-```gd
+```
 extends Node
 
 func ms2Time(s):
@@ -37,7 +46,15 @@ func my_custom_method(time_1):
 
 ```
 
+<br />
+
 > Run the Game and click the key **L**
+
+<br />
+
+___
+
+<br />
 
 **Output**
 
@@ -56,6 +73,11 @@ func my_custom_method(time_1):
 00:00:01.001
 ```
 
+<br />
+
+___
+
+<br />
 
 **License**
 
