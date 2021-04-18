@@ -2,6 +2,8 @@
 
 **Use in Autoload** `Project > Project Settings > AutoLoad`
 
+<br />
+
 ### Function
 
 ___
