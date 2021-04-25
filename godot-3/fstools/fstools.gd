@@ -18,9 +18,9 @@ func load_file(path, fallback):
 	return load(fallback)
 
 
-func get_folder_size(path):
+func get_folder_size(path, depth):
 	var temp  = 0
-	var lists = readdir_recursive(path)
+	var lists = readdir_recursive(path, depth)
 	for list in lists:
 		for item in list:
 			if check_path_type(item) == 1:
@@ -46,29 +46,43 @@ func check_path_type(path):
 
 
 
-func readdir_recursive(rootPath: String):
-	var files  = []
-	var direcs = []
+func readdir_recursive(rootPath: String, depth : int):
+	var files       = []
+	var direcs      = []
+	var depth_count = 0
+	var backup_path = rootPath
 	var dir    = Directory.new()
 	if dir.open(rootPath) == OK:
 		dir.list_dir_begin(true, false)
-		_readdirrecursive(dir, files, direcs)
+		_readdirrecursive(dir, depth_count, backup_path, depth, files, direcs)
 	return [direcs, files]
 
 
 
 # This function is a part of "readdir_recursive()"
-func _readdirrecursive(dir : Directory, files = [], direcs = []):
+func _readdirrecursive(dir : Directory, depth_count = 0, backup_path = "", depth = 0, files = [], direcs = []):
 	var fname = dir.get_next()
 	while (fname != ""):
-		var path  = dir.get_current_dir() + "/" + fname
-		if dir.current_is_dir():
+		var path       = dir.get_current_dir() + "/" + fname
+		var depth_curr = _clear_values(path.replace(backup_path, "").split("/")).size()
+		if dir.current_is_dir() and depth_curr <= depth:
 			direcs.append(path)
 			var sdir = Directory.new()
 			sdir.open(path)
 			sdir.list_dir_begin(true, false)
-			_readdirrecursive(sdir, files, direcs)
-		else:
+			depth_count += 1
+			_readdirrecursive(sdir, depth_count, backup_path, depth, files, direcs)
+		if not dir.current_is_dir() and depth_curr <= depth:
 			files.append(path)
 		fname = dir.get_next()
 	dir.list_dir_end()
+
+
+
+# This function is a part of "_readdirrecursive()"
+func _clear_values(arr : Array):
+	var fix = []
+	for n in arr:
+		if n != "":
+			fix.append(n)
+	return fix

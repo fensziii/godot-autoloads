@@ -32,9 +32,10 @@ ___
 
 <br />
 
-### **FSTools._get_folder_size(_`path`_)_**
+### **FSTools._get_folder_size(_`path`_,_`depth`_)_**
 
 + **path** = path to folder
++ **depth** = read depth
 
 **return `int`**
 > Example return: 2514
@@ -73,9 +74,10 @@ ___
 
 <br />
 
-### **FSTools._readdir_recursive(_`path`_)_**
+### **FSTools._readdir_recursive(_`path`_,_`depth`_)_**
 
 + **path** = to read directory recursively
++ **depth** = read depth
 
 **return `array`**
 > Example return: [ [ "res://directory1", "res://directory2" ], [ "res://file1.ext", "res://directory1/file2.ext" ] ]
@@ -94,7 +96,7 @@ ___
 
 **TODO**
 
-+ **[FSTools.readdir_recursive]** add read depth
++ **[FSTools.readdir_recursive]** add read depth (DONE)
 ___
 
 <br />
