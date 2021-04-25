@@ -26,7 +26,7 @@ ___
 ### **FSTools._load_file(_`path`_,_`fallback`_)_**
 
 + **path** = path to file
-+ **fallback** = path to file (if main path not exists)
++ **fallback** = path to file (main path not exists)
 
 **return `file`**
 
