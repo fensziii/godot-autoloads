@@ -19,6 +19,15 @@ func load_file(path, fallback):
 
 
 
+func get_file_size(path):
+	var file = File.new()
+	file.open(path, File.READ)
+	var temp = (file.get_len() if file.is_open() else 0)
+	file.close()
+	return temp
+
+
+
 func check_path_type(path):
 	if File.new().file_exists(path):
 		return 1
