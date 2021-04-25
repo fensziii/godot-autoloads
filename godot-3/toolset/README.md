@@ -64,7 +64,11 @@ ___
 + **array** = to clean empty values
 
 **return `array`**
+
+**input example**
 > Example Input: ["", "abc", "123"]
+
+**output example**
 > Example Output: ["abc", "123"]
 
 <br />
