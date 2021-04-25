@@ -86,6 +86,9 @@ ___
 + **1** is file and exists
 + **2** is folder and exists
 
+**input example**
+> res://icon.png
+
 <br />
 
 ___
