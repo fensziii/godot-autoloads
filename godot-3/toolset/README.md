@@ -4,7 +4,7 @@
 
 <br />
 
-### Function
+### Functions
 
 ___
 
