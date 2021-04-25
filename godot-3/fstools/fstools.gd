@@ -14,3 +14,28 @@ func check_path_type(path):
     if Directory.new().dir_exists(path):
     	return 2
     return 0
+
+func readdir_recursive(rootPath: String):
+    var files  = []
+    var direcs = []
+    var dir    = Directory.new()
+    if dir.open(rootPath) == OK:
+    	dir.list_dir_begin(true, false)
+    	_readdirrecursive(dir, files, direcs)
+    return [direcs, files]
+
+# This function is a part of "readdir_recursive()"
+func _readdirrecursive(dir : Directory, files = [], direcs = []):
+    var fname = dir.get_next()
+    while (fname != ""):
+    	var path  = dir.get_current_dir() + "/" + fname
+    	if dir.current_is_dir():
+    		direcs.append(path)
+    		var sdir = Directory.new()
+    		sdir.open(path)
+    		sdir.list_dir_begin(true, false)
+    		_readdirrecursive(sdir, files, direcs)
+    	else:
+    		files.append(path)
+    	fname = dir.get_next()
+    dir.list_dir_end()

@@ -40,6 +40,23 @@ ___
 
 <br />
 
+### **FSTools._readdir_recursive(_`path`_)_**
+
++ **path** = to read directory recursively
+
+**return `array`**
+> Example return: [ [ "res://directory1", "res://directory2" ], [ "res://file1.ext", "res://file2.ext" ] ]
+
+**input example**
+
++ example 1
+> res://
+
++ example 2
+> res://myfolder
+
+<br />
+
 ___
 
 <br />
