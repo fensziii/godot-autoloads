@@ -28,15 +28,6 @@ ___
 
 <br />
 
-### **Toolset._formatBytes(_`bytes`_)_**
-
-+ **bytes** = bytes as `int`
-
-**return `string`**
-> Example return: 62.14 MB
-
-<br />
-
 ### **Toolset._regexp_str(_`string`__,__` regexp_str`_)_**
 
 + **string** = string to search
