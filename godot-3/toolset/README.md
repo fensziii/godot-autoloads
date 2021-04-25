@@ -28,6 +28,47 @@ ___
 
 <br />
 
+### **Toolset._formatBytes(_`bytes`_)_**
+
++ **bytes** = bytes as `int`
+
+**return `string`**
+> Example return: 62.14 MB
+
+<br />
+
+### **Toolset._regexp_str(_`string`__,__` regexp_str`_)_**
+
++ **string** = string to search
++ **regexp_str** = RegEx expression
+
+**return `bool`**
+> Example return: true or false
+
+<br />
+
+### **Toolset._search_str(_`search`__,__` findme`__,__` output`_)_**
+
++ **search** = contains your main `string`
++ **findme** = contains the word as `string` to find
++ **output** = contains a `bool` to change output `true` = `bool`, `false` = `string`
+
+**return `string` or `bool`**
+> Example return: STRING = "MyWord"
+> Example return: BOOL = false or true
+
+<br />
+
+### **Toolset._clear_array_values(_`array`_)_**
+
++ **array** = to clean empty values
+
+**return `array`**
+> Example Input: ["", "abc", "123"]
+> Example Output: ["abc", "123"]
+
+<br />
+
 ___
 
 <br />

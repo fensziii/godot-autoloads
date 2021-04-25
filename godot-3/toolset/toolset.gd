@@ -16,3 +16,25 @@ func formatBytes(bytes, decis = 0.01):
     var kilo = 1024
     var i = floor(log(bytes) / log(kilo));
     return str(stepify(bytes / pow(kilo, i), decis)) + ' ' + units[i];
+
+func regexp_str(string : String, regexp_str : String):
+    var regex = RegEx.new()
+    regex.compile(regexp_str)
+    var result = regex.search(string)
+    if result:
+    	return true
+    return false
+
+func search_str(search : String, findme : String, output : bool = false):
+    var pos = search.find(findme, 0)
+    var sti = search.substr(pos, findme.length())
+    if sti.length() > 0:
+    	return (sti if output else true)
+    return (sti if output else false)
+
+func clear_array_values(arr : Array):
+    var fix = []
+    for n in arr:
+    	if n != "":
+    		fix.append(n)
+    return fix
