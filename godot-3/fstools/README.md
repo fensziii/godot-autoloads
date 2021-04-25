@@ -23,6 +23,24 @@ ___
 
 <br />
 
+### **FSTools._load_file(_`path`_,_`fallback`_)_**
+
++ **path** = path to file
++ **fallback** = path to file (if main path not exists)
+
+**return `file`**
+
+<br />
+
+### **FSTools._get_file_size(_`path`_)_**
+
++ **path** = path to file
+
+**return `int`**
+> Example return: 1565
+
+<br />
+
 ### **FSTools._check_path_type(_`path`_)_**
 
 + **path** = contains the path of **file** or **folder** as `string`
