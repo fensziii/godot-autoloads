@@ -14,7 +14,7 @@ ___
 
 <br />
 
-### **Toolset._formatBytes(_`bytes`_)_**
+### **FSTools._formatBytes(_`bytes`_)_**
 
 + **bytes** = bytes as `int`
 
@@ -23,7 +23,7 @@ ___
 
 <br />
 
-### **Toolset._check_path_type(_`path`_)_**
+### **FSTools._check_path_type(_`path`_)_**
 
 + **path** = contains the path of **file** or **folder** as `string`
 
