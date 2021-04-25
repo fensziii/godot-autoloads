@@ -38,3 +38,10 @@ func clear_array_values(arr : Array):
     	if n != "":
     		fix.append(n)
     return fix
+
+func check_path_type(path):
+    if File.new().file_exists(path):
+    	return 1
+    if Directory.new().dir_exists(path):
+    	return 2
+    return 0

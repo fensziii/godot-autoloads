@@ -77,6 +77,17 @@ ___
 
 <br />
 
+### **Toolset._check_path_type(_`path`_)_**
+
++ **path** = contains the path of **file** or **folder** as `string`
+
+**return `int`**
++ **0** fallback
++ **1** is file and exists
++ **2** is folder and exists
+
+<br />
+
 ___
 
 <br />
