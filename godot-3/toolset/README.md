@@ -59,7 +59,7 @@ ___
 > Example return: "MyWord"
 
 **output example `bool`**
-> Example return: false or true
+> Example return: **false** or **true**
 
 <br />
 
