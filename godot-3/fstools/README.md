@@ -45,7 +45,7 @@ ___
 + **path** = to read directory recursively
 
 **return `array`**
-> Example return: [ [ "res://directory1", "res://directory2" ], [ "res://file1.ext", "res://file2.ext" ] ]
+> Example return: [ [ "res://directory1", "res://directory2" ], [ "res://file1.ext", "res://directory1/file2.ext" ] ]
 
 **input example**
 
