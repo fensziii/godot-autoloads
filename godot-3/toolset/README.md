@@ -54,8 +54,12 @@ ___
 + **output** = contains a `bool` to change output `true` = `bool`, `false` = `string`
 
 **return `string` or `bool`**
-> Example return: STRING = "MyWord"
-> Example return: BOOL = false or true
+
+**output example `string`**
+> Example return: "MyWord"
+
+**output example `bool`**
+> Example return: false or true
 
 <br />
 
