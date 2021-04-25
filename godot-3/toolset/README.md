@@ -89,6 +89,9 @@ ___
 **input example**
 > res://icon.png
 
+**output example**
+> **1**
+
 <br />
 
 ___
