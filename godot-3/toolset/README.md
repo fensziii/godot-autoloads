@@ -49,7 +49,7 @@ ___
 
 ### **Toolset._search_str(_`search`__,__` findme`__,__` output`_)_**
 
-+ **search** = contains main `string`
++ **search** = contains the main `string`
 + **findme** = contains the word as `string` to find
 + **output** = contains a `bool` to change output `true` = `bool`, `false` = `string`
 
