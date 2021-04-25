@@ -18,6 +18,15 @@ func load_file(path, fallback):
 	return load(fallback)
 
 
+func get_folder_size(path):
+	var temp  = 0
+	var lists = readdir_recursive(path)
+	for list in lists:
+		for item in list:
+			if check_path_type(item) == 1:
+				temp += get_file_size(item)
+	return temp
+
 
 func get_file_size(path):
 	var file = File.new()

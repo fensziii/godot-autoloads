@@ -32,12 +32,27 @@ ___
 
 <br />
 
+### **FSTools._get_folder_size(_`path`_)_**
+
++ **path** = path to folder
+
+**return `int`**
+> Example return: 2514
+
+**input example**
+> res://myFolder
+
+<br />
+
 ### **FSTools._get_file_size(_`path`_)_**
 
 + **path** = path to file
 
 **return `int`**
 > Example return: 1565
+
+**input example**
+> res://icon.png
 
 <br />
 
