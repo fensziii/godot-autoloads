@@ -40,7 +40,7 @@ ___
 ### **Toolset._regexp_str(_`string`__,__` regexp_str`_)_**
 
 + **string** = string to search
-+ **regexp_str** = RegEx expression
++ **regexp_str** = Regular expression
 
 **return `bool`**
 > Example return: true or false
