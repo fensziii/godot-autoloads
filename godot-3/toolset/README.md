@@ -85,7 +85,7 @@ ___
 
 <br />
 
-### **Toolset.chunk_array(_`array`_,_`size`_)_**
+### **Toolset._chunk_array(_`array`_,_`size`_)_**
 
 + **array** = array to chunk
 + **size** = chunk size
@@ -104,7 +104,7 @@ print(chunked)
 
 <br />
 
-### **Toolset.get_difference(_`int | float`_,_`int | float`_)_**
+### **Toolset._get_difference(_`int | float`_,_`int | float`_)_**
 
 + **int | float** = first number
 + **int | float** = seccond number
