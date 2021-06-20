@@ -45,3 +45,21 @@ func check_path_type(path):
     if Directory.new().dir_exists(path):
     	return 2
     return 0
+
+func chunk_array(arr, size):
+	var chunks = [] # Chunked Array
+	var counts = 0  # Count Items
+	var chunkn = -1 # Count Chunks
+	for item in arr:
+		if counts % size == 0:
+			chunks.push_back([])
+			chunkn += 1;
+		chunks[chunkn].push_back(item)
+		counts += 1
+	return chunks
+
+func get_difference(a, b):
+	if(a > b):
+		return a - b
+	else:
+		return b - a

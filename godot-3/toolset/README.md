@@ -85,6 +85,44 @@ ___
 
 <br />
 
+### **Toolset.chunk_array(_`array`_,_`size`_)_**
+
++ **array** = array to chunk
++ **size** = chunk size
+
+**return `array`**
+
+**example**
+
+```
+var chunked = Toolset.chunk_array([1,2,3,4,5], 2)
+
+print(chunked)
+
+# return: [[1,2],[3,4],[5]]
+```
+
+<br />
+
+### **Toolset.get_difference(_`int | float`_,_`int | float`_)_**
+
++ **int | float** = first number
++ **int | float** = seccond number
+
+**return `int`**
+
+**example**
+
+```
+var diff = Toolset.get_difference(6, 2)
+
+print(diff)
+
+# return: 4
+```
+
+<br />
+
 ___
 
 <br />
